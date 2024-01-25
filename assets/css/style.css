@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #28a745;
+    
+}
+
+.logo-nav {
+    width: 40%;
+}
+
+nav button {
+    margin-left: 80%;
+}
+
+.card {
+    height: 600px;
+}
+
+.card img {
+    object-fit: cover;
+    height: 350px;
+}
+
+.card h5 {
+    font-weight: 300;
+    
+}
+
+.card-body {
+    font-weight: 300;
+    height: 200px;
+}
+
+.discount-price {
+    color: #28a745;
+    font-size: 25px;
+    
+}
+
+.contact-form {
+    background-color: #28a745;
+}
+
+.form-control::placeholder { 
+    color: #707070;
+    font-weight: 300; 
+}
+
+footer img {
+    width: 25%;
+}
+
+footer p {
+    font-weight: 300;
+}
+
+@media (width > 768px){
+    footer img {
+        width: 10%;
+    }
+}
